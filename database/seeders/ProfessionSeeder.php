@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Profession;
+use App\Models\Skill;
 use Illuminate\Database\Seeder;
 
 class ProfessionSeeder extends Seeder
@@ -13,6 +15,7 @@ class ProfessionSeeder extends Seeder
      */
     public function run()
     {
-        //
+
+       //
     }
 }

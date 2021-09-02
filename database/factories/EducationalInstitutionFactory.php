@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\EducationalInstitution;
+use App\Models\Profession;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class EducationalInstitutionFactory extends Factory
@@ -21,8 +22,23 @@ class EducationalInstitutionFactory extends Factory
      */
     public function definition()
     {
+
+        $name =  array(
+            'КУК',
+            'КНУКиИ',
+            'МАУП',
+            'КНУБА',
+            'ШАГ',
+            'ХНМУ',
+            'СНАУ',
+            'ОГАУ',
+            'ВФЕУ'
+        );
+        $name =  collect($name);
+
         return [
-            //
+            'title' => $name->random(),
+            'description' => 'text description',
         ];
     }
 }

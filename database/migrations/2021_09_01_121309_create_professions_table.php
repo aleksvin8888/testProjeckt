@@ -17,17 +17,10 @@ class CreateProfessionsTable extends Migration
             $table->id();
             $table->string('title');
             $table->text('description');
-            $table->string('slug');
-            $table->bigInteger('skill_id')->unsigned()->nullable();
             $table->softDeletes($column = 'deleted_at', $precision = 0);
 
             $table->timestamps();
 
-
-            $table->foreign('skill_id')
-                ->references('id')
-                ->on('skills')
-                ->onDelete('cascade');
         });
     }
 

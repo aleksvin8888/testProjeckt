@@ -3,7 +3,9 @@
 namespace Database\Factories;
 
 use App\Models\Profession;
+use App\Models\Skill;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Str;
 
 class ProfessionFactory extends Factory
 {
@@ -21,8 +23,23 @@ class ProfessionFactory extends Factory
      */
     public function definition()
     {
+
+        $professions =  array(
+            'композитор',
+            'аранжировщик',
+            'инструменталист',
+            'дирижер',
+            'концертмейстер',
+            'звукорежиссер',
+            'звукооператор',
+            'Астрофизик',
+            'Кинолог'
+        );
+      $professions =  collect($professions);
+
         return [
-            //
+            'title' => $professions->random(),
+            'description' => 'text description',
         ];
     }
 }
