@@ -17,6 +17,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             SkillSeeder::class,
+            ProfesionSkillsSeeder::class,
+            EducationalInstitutionProfessionsSeeder::class,
         ]);
 
         Profession::factory()
