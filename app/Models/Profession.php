@@ -37,6 +37,16 @@ class Profession extends Model
     use HasFactory;
 
 
+    public function skills(){
+      return  $this->belongsToMany(Skill::class, 'profession_skills',
+          'profession_id', 'skill_id');
+    }
+
+    public function educationalInstitutions(){
+        return $this->belongsToMany(EducationalInstitution::class,
+            'educational_institution_professions',
+            'profession_id', 'educational_institution_id');
+    }
 }
 
 

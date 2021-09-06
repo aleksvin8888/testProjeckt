@@ -17,8 +17,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             SkillSeeder::class,
-            ProfesionSkillsSeeder::class,
-            EducationalInstitutionProfessionsSeeder::class,
         ]);
 
         Profession::factory()
@@ -28,6 +26,11 @@ class DatabaseSeeder extends Seeder
         EducationalInstitution::factory()
             ->count(10)
             ->create();
+
+        $this->call([
+            ProfesionSkillsSeeder::class,
+            EducationalInstitutionProfessionsSeeder::class,
+        ]);
 
 
     }

@@ -35,6 +35,10 @@ class EducationalInstitution extends Model
 {
     use HasFactory;
 
+    public function professions(){
+        return $this->belongsToMany(Profession::class, 'educational_institution_professions',
+            'educational_institution_id', 'profession_id');
+    }
 
 
 
