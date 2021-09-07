@@ -1,19 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
+
     <div class="container  overflow-hidden">
-        <div class="row gy-5">
+        <div class="row y-5">
             <table class="table table-success table-striped">
                 <thead>
                 <tr>
                     <th>##</th>
                     <th>Навыки</th>
                     <th>Учебные завидения</th>
-
                 </tr>
                 </thead>
                 <tbody>
-
                 @foreach($professions as $profession)
                     <tr>
                         <td>{{$profession->title}}</td>
@@ -35,8 +34,8 @@
                 @endforeach
                 </tbody>
             </table>
-
         </div>
+
     </div>
 
 

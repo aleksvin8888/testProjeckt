@@ -30,6 +30,8 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  * @method static \Illuminate\Database\Eloquent\Builder|EducationalInstitution whereTitle($value)
  * @method static \Illuminate\Database\Eloquent\Builder|EducationalInstitution whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Profession[] $professions
+ * @property-read int|null $professions_count
  */
 class EducationalInstitution extends Model
 {

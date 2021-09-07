@@ -24,26 +24,6 @@ class ProfesionSkillsSeeder extends Seeder
                 'skill_id' => 2,
             ],
             [
-                'profession_id' => 1,
-                'skill_id' => 3,
-            ],
-            [
-                'profession_id' => 1,
-                'skill_id' => 4,
-            ],
-            [
-                'profession_id' => 1,
-                'skill_id' => 1,
-            ],
-            [
-                'profession_id' => 2,
-                'skill_id' => 1,
-            ],
-            [
-                'profession_id' => 2,
-                'skill_id' => 2,
-            ],
-            [
                 'profession_id' => 2,
                 'skill_id' => 3,
             ],
@@ -52,36 +32,24 @@ class ProfesionSkillsSeeder extends Seeder
                 'skill_id' => 4,
             ],
             [
-                'profession_id' => 2,
-                'skill_id' => 1,
-            ],
-            [
-                'profession_id' => 3,
-                'skill_id' => 1,
-            ],
-            [
-                'profession_id' => 1,
-                'skill_id' => 1,
-            ],
-            [
                 'profession_id' => 3,
                 'skill_id' => 5,
             ],
             [
                 'profession_id' => 3,
-                'skill_id' => 7,
-            ],
-            [
-                'profession_id' => 4,
-                'skill_id' => 5,
-            ],
-            [
-                'profession_id' => 4,
                 'skill_id' => 6,
             ],
             [
                 'profession_id' => 4,
-                'skill_id' => 1,
+                'skill_id' => 7,
+            ],
+            [
+                'profession_id' => 4,
+                'skill_id' => 8,
+            ],
+            [
+                'profession_id' => 5,
+                'skill_id' => 9,
             ],
             [
                 'profession_id' => 5,
@@ -89,7 +57,39 @@ class ProfesionSkillsSeeder extends Seeder
             ],
             [
                 'profession_id' => 5,
-                'skill_id' => 9,
+                'skill_id' => 7,
+            ],
+            [
+                'profession_id' => 6,
+                'skill_id' => 1,
+            ],
+            [
+                'profession_id' => 6,
+                'skill_id' => 2,
+            ],
+            [
+                'profession_id' => 7,
+                'skill_id' => 3,
+            ],
+            [
+                'profession_id' => 7,
+                'skill_id' => 4,
+            ],
+            [
+                'profession_id' => 8,
+                'skill_id' => 5,
+            ],
+            [
+                'profession_id' => 8,
+                'skill_id' => 6,
+            ],
+            [
+                'profession_id' => 9,
+                'skill_id' => 7,
+            ],
+            [
+                'profession_id' => 9,
+                'skill_id' => 8,
             ],
         ];
 
