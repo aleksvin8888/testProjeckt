@@ -23,3 +23,15 @@
 заведений соответствующих списку навыков.
 Совпадение должно быть точным,
 то есть все навыки в запросе должны присутствовать у профессии.
+
+
+Personal access client created successfully.
+Client ID: 1
+Client secret: DW1g27xuS9HETkbaNbloI7msrLd6fCje43mOOzGd
+Password grant client created successfully.
+Client ID: 2
+Client secret: lq4VoCoWcori4A0FRQvn2lhUDZfIICgpeTPrAbgl
+
+
+Client ID: 3
+Client secret: miWsgZXQpek3q9FBQ7b4UToXcZYU5NZwhutVhghT
