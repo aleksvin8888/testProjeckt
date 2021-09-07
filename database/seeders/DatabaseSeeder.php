@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Profession::factory()
-            ->count(10)
+            ->count(5)
             ->create();
 
         EducationalInstitution::factory()

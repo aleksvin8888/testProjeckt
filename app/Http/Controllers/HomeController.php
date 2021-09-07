@@ -12,7 +12,6 @@ class HomeController extends Controller
     {
         $professions = Profession::all();
 
-        //dd($professions);
         return view('main.home', compact('professions'));
     }
 }

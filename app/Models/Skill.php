@@ -28,6 +28,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Skill whereTitle($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Skill whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Profession[] $professions
+ * @property-read int|null $professions_count
  */
 class Skill extends Model
 {
